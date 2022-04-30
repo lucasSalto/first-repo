@@ -206,11 +206,11 @@ span{
 }
 
 .grid_img{
-    height: 70%;
+    height: 600px;
 }
 
 
-                                                        /* Nuestro Trabajo*/
+                                                        /* Colocaciones*/
 /*Estilo Nuestro Trabajo*/
 .nombre_img{
     background-color: rgb(0,0,0,0.8);
@@ -387,6 +387,109 @@ span{
     flex-direction: column;
 }
 
+@media screen and (max-width: 768px)
+{
+    /*Index*/
+    .tipografia_titulo{
+        font-size: 40px;
+    }
+
+    .texto{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .segundo_titulo{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .parrafo{
+        font-size: 15px;
+    }
+
+    .texto_video{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*Caracteristicas*/
+    .titulo{
+        font-size: 35px;
+    }
+    
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .grid_hijo{
+        text-align: center;
+    }
+
+    .grid_titulo{
+        text-align: left;
+    }
+
+    /*Colocaciones*/
+    .galeria{
+        grid-template-rows: repeat(2, 400px);
+    }
+
+    .nombre_img{
+        padding: 3%;
+        font-size: 25px;
+    } 
+    
+    /*Cursos*/
+    .titulo_cursos{
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .imagenes_cursos{
+        width: 250px;
+        height: 200px;
+    }
+
+    .subtitulo_curso{
+        font-size: 25px;
+    }
+
+    .titulo_info{
+        padding: 3%;
+        font-size: 20px;
+    }
+
+    /*Contactos*/
+    .contactos{
+        grid-template-rows: 250px;
+    } 
+    
+    .img_contactos{ 
+        height: 90%;
+        object-fit: cover;
+    }
+
+
+    .titulo_contacto{
+        padding: 0%;
+        margin: 0% 0%;
+        font-size: 30px;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .img_ubicacion{
+        padding: 2%;
+        height: 50%;
+        width: 50%;
+    }
+
+}
+
 
 
 /*Media Querys - Version Mobile*/
@@ -536,7 +639,7 @@ span{
         background-size: contain;
     }
 
-    /*Nuestro Trabajo*/
+    /*Colocaciones*/
     .galeria{
         padding: 2%;
         grid-template-columns: repeat(1, 1fr);
@@ -632,8 +735,5 @@ span{
     .celdas{
         text-align: center;
     }
-
-
-
 
 }
