@@ -1,0 +1,19 @@
+{
+  "name": "construccionenseco",
+  "version": "1.0.0",
+  "description": "inicio sass",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass ./sass/style.scss ./newcss/style.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasSalto/first-repo.git"
+  },
+  "author": "Lucas Salto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasSalto/first-repo/issues"
+  },
+  "homepage": "https://github.com/lucasSalto/first-repo#readme"
+}
