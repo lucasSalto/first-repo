@@ -1,0 +1,40 @@
+.galeria{
+    padding: 1%;
+    gap: 0.5rem;
+    object-fit: cover;
+}
+
+.img_hijo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+    overflow: hidden; 
+}
+
+.imagenes{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s;
+}
+
+.nombre_img{
+    background-color: $colorSecundary;
+    padding: 1%;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    position:absolute; 
+}
+
+.imagenes:hover{
+    transform: scale(1.3);
+
+}
+
+
+
+
+

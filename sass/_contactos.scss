@@ -1,0 +1,48 @@
+.hijo_contactos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img_contactos{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.texto_contacto{
+    background-color: $colorSecundary;
+    padding: 1%;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    position: absolute;
+}
+
+.formato_contacto{
+    padding: 2%;
+    display: flex; 
+    justify-content: space-around;  
+}
+
+.titulo_contacto{
+    padding: 1%;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.img_ubicacion{
+    padding: 2%;
+    width: 40%;
+    height: 50%;
+}
+
+.celdas{
+    padding: 1%;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}

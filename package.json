@@ -4,7 +4,7 @@
   "description": "inicio sass",
   "main": "index.js",
   "scripts": {
-    "start": "sass ./sass/style.scss ./newcss/style.css -w --no-source-map -s compressed"
+    "start": "sass ./style.scss ./newcss/style.css -w --no-source-map -s compressed"
   },
   "repository": {
     "type": "git",

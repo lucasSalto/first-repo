@@ -1,0 +1,46 @@
+.logo_footer{
+    display: none;
+}
+
+.final{
+    padding: 1%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.datos{
+    width: 50%;
+
+    .ubicacion{
+        font-weight: 400;
+        font-style: italic;
+        line-height: 1,5;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin: 0% 2%;
+    }
+}
+
+
+.logos{
+    width: 15%;
+    height: 15%;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .redes_sociales{
+        color: $colorPrimary;
+        width: 50%;
+        height: 50%;
+    } 
+}
+
+
+
+

@@ -1,0 +1,21 @@
+.cabecera{
+    display: flex;
+    justify-content: flex-end;
+
+    .enlaces{
+        font-style: italic;
+    }
+    
+}
+
+.logo_principal{ 
+    margin: 0% 3%;
+    width: 80px;
+    height: 80px;
+} 
+
+@media screen and (max-width: 768px){
+    .cabecera{
+        justify-content: flex-start;
+    }
+}
