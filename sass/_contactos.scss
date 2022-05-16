@@ -22,9 +22,7 @@
 }
 
 .formato_contacto{
-    padding: 2%;
-    display: flex; 
-    justify-content: space-around;  
+    @include formato(space-around);
 }
 
 .titulo_contacto{

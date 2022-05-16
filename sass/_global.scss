@@ -1,0 +1,14 @@
+.txt{
+    background-color: $bgColor;
+    padding: 1%;
+    margin: 0% 23%;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+@mixin formato ($justify-content) {
+    padding: 2%;
+    display: flex; 
+    justify-content: $justify-content;  
+}
