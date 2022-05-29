@@ -1,5 +1,6 @@
 @media screen and (max-width: 768px)
 {
+    /*Index*/
     .tipografia_titulo{
         font-size: 40px;
     }
@@ -14,17 +15,18 @@
         text-align: center;
     }
 
-    .parrafo{
-        font-size: 15px;
-    }
-
     .texto_video{
         display: flex;
         flex-direction: column;
-        text-align: center;
+        align-items: center;
+
+        .parrafo{
+            font-size: 15px;
+        }
     }
 
-    .titulo{
+    /*Caracteristicas*/
+    .titulo_caracteristicas{
         font-size: 35px;
     }
     
@@ -32,39 +34,36 @@
         padding: 0%;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
+
+        &_hijo{
+            text-align: center;
+        }
+    
+        &_titulo{
+            text-align: left;
+        }
+    
     }
 
-    .grid_hijo{
-        text-align: center;
-    }
+    /*Cursos*/
+    .informacion{
+        .titulo_info{
+            font-size: 25px;
+            font-weight: 200;
+        }
 
-    .grid_titulo{
-        text-align: left;
+        .texto{
+            font-size: 15px;
+        }
     }
-
-    .nombre_img{
-        padding: 2%;
-        font-size: 25px;
-    } 
     
     .titulo_cursos{
         font-size: 30px;
-        font-weight: 500;
+        font-weight: 700;
         text-align: center;
     }
 
-    .subtitulo_curso{
-        font-size: 25px;
-    }
-
-    .titulo_info{
-        padding: 3%;
-        font-size: 20px;
-    }
-
-    .img_contactos{ 
-        object-fit: cover;
-    }
+    /*Contactos*/
 
     .titulo_contacto{
         padding: 0%;
@@ -74,9 +73,7 @@
         text-align: center;
     }
 
-    .img_ubicacion{
-        padding: 2%;
-        height: 50%;
+    .mapa_ubicacion{
         width: 50%;
     }
 

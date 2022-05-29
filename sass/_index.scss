@@ -7,66 +7,37 @@
     background-image: url(../images/seco-28.08.jpg);
     background-size: cover;
     background-position: center;
+
+    .texto{
+        @extend .txt;
+        border-radius: 30%;
+    }
 }
 
 .tipografia_titulo{
-    padding: 1%;
-    background-color: $bgColor;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    text-decoration: underline;
-}
-
-.texto{
-    @extend .txt;
-}
-
-.segundo_titulo{
-    padding: 1%;
-    margin: 0% 23%;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    text-decoration: underline;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    @extend .titulos;
 }
 
 .texto_video{
     padding: 1% 3%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 
     .parrafo{
-        margin: 1%;
-        font-size: 20px;
-        font-weight: 200;
-        animation-name: efecto;
-        animation-duration: 4s;
+
+        @extend .g_parrafo;
 
         span{
             font-weight: 400;
-            font-style: normal;
+            font-style: italic;
         }
         
     }
     
-    @keyframes efecto{
-        from{
-           opacity: 0;
-        }
-        to{
-           opacity: 1;
-        }
-    }
-    
-    
     .video{
-        padding: 5%;
-        margin: 1% 3%; 
-        text-align: center;
+        padding: 2%; 
     }
 
 } 

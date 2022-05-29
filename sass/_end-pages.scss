@@ -1,14 +1,13 @@
-.logo_footer{
-    display: none;
-}
-
 .final{
     padding: 1%;
     margin: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.logo_footer{
+    display: none;
 }
 
 .datos{
@@ -34,11 +33,12 @@
     justify-content: center;
     align-items: center;
 
-     .redes_sociales{
-         color: $colorPrimary;
-         width: 50%;
-         height: 50%;
-     } 
+    .redes_sociales{
+        color: $colorPrimary;
+        width: 50%;
+        height: 50%;
+    } 
+    
 }
 
 
